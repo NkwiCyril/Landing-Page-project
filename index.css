@@ -1,0 +1,82 @@
+:root{
+    --hero-bg-color: #1F2937;
+    --hero-main-text: 48px bold #F9FAF8;
+    --hero-secondary-text: 18px #E5E7EB;
+    --header-logo: 24px #F9FAF8;
+    --button-color: #3882F6;
+    --info-text: 36px extra-bold #1F2937;
+    --quote-text: 36px light-italic #1F2937;
+    --quote-bgcolor: #E5E7EB;
+    
+}
+/* ====================================== */
+/* hero section */
+/* Mainly focusing on positioning */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid white;
+    font-family: 'Poppins', sans-serif;;
+}
+.hero{
+    background-color: var(--hero-bg-color);
+    color: white;
+    width: 100%;
+}
+.hero-box{
+    width: 80%;
+    margin: 20px auto;
+}
+.nav-bar{
+    padding-bottom: 55px;
+    text-align: center;
+    font-size: 24px;
+    color: #fafaf8;
+    overflow: hidden;
+}
+.image{
+    float: left;
+}
+.nav-links{
+    display: flex;
+    justify-content: right;
+}
+.link{
+    display: inline;
+    list-style: none;
+    margin: 0 5px;
+    padding-left: 0px;
+}
+
+
+/* Introduction section */
+.intro{
+    display: flex;
+}
+
+.intro div{
+    flex: 1;
+}
+
+.intro h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.intro p{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.intro button{
+    color: white;
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+    margin: 5px auto;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 0 7px;
+} 
+.intro .right{
+    background-color: grey;
+}
