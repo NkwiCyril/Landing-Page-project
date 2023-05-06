@@ -1,13 +1,7 @@
 :root{
     --hero-bg-color: #1F2937;
-    --hero-main-text: 48px bold #F9FAF8;
-    --hero-secondary-text: 18px #E5E7EB;
-    --header-logo: 24px #F9FAF8;
     --button-color: #3882F6;
-    --info-text: 36px extra-bold #1F2937;
-    --quote-text: 36px light-italic #1F2937;
     --quote-bgcolor: #E5E7EB;
-    
 }
 
 /* ======================================================= */
@@ -65,8 +59,7 @@
 }
 
 .intro div{
-    width: 50%;
-    
+    flex: 1;    
 }
 
 .intro h1{
@@ -100,7 +93,7 @@
     width: 100%;
 }
 
-/* ============================================ */
+/* ============================================================= */
 /* ============ Information with Images section ================*/
 
 .info-sec{
@@ -126,6 +119,35 @@
 .info-sec p{
     text-align: center;
 }
+
+/* ============================================================= */
+/* ===================== Quote section ========================*/
+
+.quote{
+    background-color: #E5E7EB;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+}
+.position{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.position cite{
+    display: block;
+}
+.text{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+.author{
+    float: right;
+}
+
+/* ============================================================= */
+/* ===================== Sign up section ========================*/
 
 
 
