@@ -9,15 +9,15 @@
     --quote-bgcolor: #E5E7EB;
     
 }
+
 /* ======================================================= */
-/* ================== hero section =======================*/
-/* ========= Mainly focusing on positioning =============*/
-/* ====================================================== */
+/* ================== navigation and intro section ========*/
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid white; */
+    border: 1px solid black;
     font-family: 'Poppins', sans-serif;
 }
 .hero{
@@ -49,12 +49,13 @@
 .link{
     display: inline;
     list-style: none;
-    padding-left: 15px;
+    margin-left: 15px;
     cursor: pointer;
+    text-align: justify;
 }
 .link:hover{
-    border-bottom: 2px solid var(--quote-bgcolor);
-    transition: all .2s ease-in-out;
+    text-decoration: underline;
+
 }
 
 
@@ -99,6 +100,33 @@
     width: 100%;
 }
 
-/*  */
+/* ============================================ */
+/* ============ Information with Images section ================*/
+
+.info-sec{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.info-sec h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.info-sec .images{
+    display: flex;
+    gap: 30px;
+}
+.info-sec .images img{
+    width: 100%;
+    border-radius: 5px;
+}
+.info-sec p{
+    text-align: center;
+}
+
+
 
 
