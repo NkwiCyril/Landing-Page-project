@@ -9,34 +9,38 @@
     --quote-bgcolor: #E5E7EB;
     
 }
-/* ====================================== */
-/* hero section */
-/* Mainly focusing on positioning */
+/* ======================================================= */
+/* ================== hero section =======================*/
+/* ========= Mainly focusing on positioning =============*/
+/* ====================================================== */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0.5px solid white;
-    font-family: 'Poppins', sans-serif;;
+    /* border: 1px solid white; */
+    font-family: 'Poppins', sans-serif;
 }
 .hero{
     background-color: var(--hero-bg-color);
     color: white;
-    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 10px;
 }
 .hero-box{
-    width: 80%;
-    margin: 20px auto;
+    width: 75%;
+    margin: 0px auto;
 }
 .nav-bar{
-    padding-bottom: 55px;
-    text-align: center;
-    font-size: 24px;
+    margin-bottom: 70px;
+    font-size: 18px;
     color: #fafaf8;
     overflow: hidden;
 }
-.image{
+.logo{
     float: left;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
 }
 .nav-links{
     display: flex;
@@ -45,8 +49,12 @@
 .link{
     display: inline;
     list-style: none;
-    margin: 0 5px;
-    padding-left: 0px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.link:hover{
+    border-bottom: 2px solid var(--quote-bgcolor);
+    transition: all .2s ease-in-out;
 }
 
 
@@ -56,7 +64,8 @@
 }
 
 .intro div{
-    flex: 1;
+    width: 50%;
+    
 }
 
 .intro h1{
@@ -68,15 +77,28 @@
     color: #F9FAF8;
 }
 .intro button{
+    border: none;
     color: white;
-    border: 1px solid #F9FAF8;
     background-color: #3882F6;
     margin: 5px auto;
-    width: 5rem;
-    height: 1.5rem;
+    width: 6rem;
+    height: 27px;
     border-radius: 5px;
     padding: 0 7px;
+    cursor: pointer;
 } 
-.intro .right{
-    background-color: grey;
+.intro button:hover{
+    color: black;
+    background-color: var(--quote-bgcolor);
+    transition: all .4s ease-in-out;
 }
+.intro .left{
+    margin-left: 5px;
+}
+.intro img{
+    width: 100%;
+}
+
+/*  */
+
+
